@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header .logo {
+    width: 150px;
+    height: auto;
+}
+
+.header .nav-item {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.container {
+  display: flex;
+    max-width: calc(33.333% - 20px);
+    text-align: center;
+
+    padding: 10px;
+    box-sizing: border-box;
+justify-content: center;
+  }
+
+  .
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 94px;
+}
+
+.card_title {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.card_text {
+  max-width: 275px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.card::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card:nth-child(1)::before {
+    background-image: url("/foto/antenna 1.png");
+}
+
+.card:nth-child(2)::before {
+    background-image: url("/foto/clock 1.png");
+}
+
+.card:nth-child(3)::before {
+    background-image: url("/foto/diagram 1.png");
+}
+
+.card:nth-child(4)::before {
+    background-image: url("/foto/astronaut 1.png");
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.section .section-content {
+    margin: 0;
+}
+
+.section .section-title {
+    margin-bottom: 10px;
+}
+
+.section .section-text {
+    margin: 10px 0;
+}
+
+.section .section-subtitle {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.team-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member .team-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.team-member .team-name {
+    margin: 10px 0;
+}
+
+.team-member .team-role {
+    margin: 10px 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    margin: 5px 0;
+}
